@@ -1,0 +1,68 @@
+@import url("./style2.css");
+
+span.orange{
+    color:red;
+}
+
+ul > .green {
+    color: green;
+}
+
+ul .red{
+    color: red;
+}
+
+ul .yellow{
+    color: yellow;
+}
+
+ul .purple{
+    color: purple;
+}
+
+ul .pink{
+    color: pink;
+}
+
+.purple :hover {
+    color: purple;
+}
+
+.purple:active {
+    color: red;
+}
+input:focus {
+    background-color: black;
+}
+.car span:first-child {
+    color: yellow;
+}
+.car h3:last-child{
+    color: skyblue;
+}
+.car *:nth-child(){
+    color: red;
+}
+.box::before {
+    content: "★";
+}
+.box::after {
+    content: "뒤!!";
+}
+[disabled] {
+    color: red;
+}
+[type="password"] {
+    color: chartreuse;
+}
+[value="HI"] {
+    color: blue;
+}
+.animal {
+    color: red;
+}
+div {color: red !important;}
+#color_green {color: green;}
+div {color: blue;}
+* {color: brown;}
+body {color: violet;}
