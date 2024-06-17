@@ -23,6 +23,12 @@ class EventPratice extends Component {
             message : ''
         });
     }
+
+    handlekeypress = (e) => {
+        if(e.key === 'Enter') {
+            this.handleClick();
+        }
+    }
     render() {
         return (
             <div>
