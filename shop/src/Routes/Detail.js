@@ -1,8 +1,10 @@
+
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useContext} from 'react';
 import {Nav} from 'react-bootstrap';
 import '../App.css';
+import { 재고Context } from "../App";
 
 // let Box = styled.div`
 //     padding : 20px;
@@ -52,7 +54,8 @@ function Detail (props) {
     // useEffect(() => {
     //     setTimeout(()=> {setAlert(false)}, 2000)
     // });
-    
+
+    let {재고} = useContext(재고Context)
     return (
         <div className={'container start ' + fade2}>
             <div className="row">
